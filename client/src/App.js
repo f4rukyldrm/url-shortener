@@ -60,7 +60,7 @@ function App() {
     return (
         <>
             <main className='bg-gray-900 w-full mx-auto'>
-                <h1 className=" text-center mt-5 text-5xl font-extrabold tracking-tight leading-none text-white">Url Shortener</h1>
+                <h1 className=" text-center mt-5 text-5xl font-extrabold tracking-tight leading-none text-white">Url Shortener  <span className='absolute top-12 text-base font-md ml-1'>POST /api/shorturl</span></h1>
 
                 <section className='my-7 w-4/5 mx-auto h-[45px]'>
                     <form action='api/shorturl' method="post" className='h-full' onSubmit={handleSubmit}>
